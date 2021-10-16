@@ -10,7 +10,7 @@ const baubleMaterial = new THREE.MeshLambertMaterial({
   emissive: 'black'
 });
 const sphereGeometry = new THREE.SphereGeometry(1, 28, 28);
-const baubles = [...Array(20)].map((_, i) => {
+const baubles = [...Array(10)].map((_, i) => {
   const args = [0.6, 0.6, 0.6, 0.8, 0.8, 1][Math.floor(Math.random() * 6)];
   return {
     args,
