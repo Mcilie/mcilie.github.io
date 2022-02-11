@@ -81,7 +81,7 @@ const Home = () => {
               <Link href="https://github.com/Mcilie">
                 <Chip>Github</Chip>
               </Link>
-              <Link href="https://drive.google.com/file/d/1vG4ewHJGaFIOzysvQBQ5FFBV66y6cWy5/view">
+              <Link href="https://drive.google.com/file/d/1HeRvtUUVQLMjnxoqJF71jLbRgxyaLEEe/view">
                 <Chip>Resume</Chip>
               </Link>
               <Link href="https://www.linkedin.com/in/michael-ilie-8535b9123/">
