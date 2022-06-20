@@ -71,7 +71,7 @@ const Ball = (props: Props) => {
         zIndex: 0
       }}
       dpr={1.5}
-      gl={{ alpha: true, stencil: false, depth: false, antialias: true }}
+      gl={{ alpha: true, stencil: false, depth: false, antialias: false, powerPreference:"high-performance"}} //formerly antialias : true 
       camera={{ position: [0, 0, 20], fov: 35, near: 10, far: 40 }}
       onCreated={state => {
         state.gl.toneMappingExposure = 1.5;
