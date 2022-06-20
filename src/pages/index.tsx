@@ -53,7 +53,7 @@ const Home = () => {
                       I am an aspiring <Bold>Entrepreneur</Bold>, specializing in <Bold>Software Development</Bold> and <Bold>Hardware Engineering</Bold>. 
                       My <Bold>areas of interest</Bold> include FHIR, <Bold>Machine Learning</Bold>, HPC, <Bold>Space Commercialization</Bold>, Simulations, and <Bold>Silicon Design</Bold>/<Bold>Architecture</Bold>.
                     </p>
-                    <p>Currently, I'm at <Bold><Link href='https://mbhs.edu/'>Montgomery Blair High School</Link></Bold>.</p>
+                    <p>Currently, I'm at <Bold><Link href='https://mbhs.edu/'>Montgomery Blair High School...</Link></Bold>.</p>
                   </div>
                 </div>
               </div>
