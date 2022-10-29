@@ -75,9 +75,6 @@ const Home = () => {
               ></div>
             </div>
             <div css={tw`flex flex-wrap max-w-lg justify-center space-x-4 mx-auto py-8 relative z-10`}>
-              <Link href="https://twitter.com/skdrx">
-                <Chip>Twitter</Chip>
-              </Link>
               <Link href="https://github.com/Mcilie">
                 <Chip>Github</Chip>
               </Link>
@@ -87,21 +84,39 @@ const Home = () => {
               <Link href="https://www.linkedin.com/in/michael-ilie-8535b9123/">
                 <Chip>LinkedIn</Chip>
               </Link>
-              <Link href="https://ctftime.org/user/65787">
-                <Chip>CTF Time</Chip>
-              </Link>
-              <Link href="https://www.instagram.com/skdrx/">
-                <Chip>Instagram</Chip>
-              </Link>
-              <Link href="mailto:mcilieg@gmail.com">
+              <Link href="mailto:mcilie@icloud.com">
                 <Chip>Email</Chip>
               </Link>
             </div>
 
-            <div css={tw`text-center mt-20 mb-12 text-3xl md:text-5xl font-black`}>Featured Works</div>
+            <div css={tw`text-center mt-20 mb-12 text-3xl md:text-5xl font-black`}>Projects / Endeavors</div>
 
             <div css={tw`grid px-4 md:grid-cols-2 md:px-0 gap-6 pb-20`}>
-              <Link href="https://www.blair3sat.org/">
+            <Link href="https://cisionvision.com">
+                <Card>
+                  <CTitle>Cision Vision</CTitle>
+                  <CDesc>
+                    Conducted R&D on medical imaging systems, conducted market research, hired key contractors, and project managed team.
+                  </CDesc>
+                  <div css={tw`flex mt-4`}>
+                    <CTag>Startup</CTag>
+                    <CTag css={tw`text-yellow-600`}>SBIR Funded</CTag>
+                  </div>
+                </Card>
+              </Link>
+              <Link href="https://lumoscan.com">
+                <Card>
+                  <CTitle>Lumo Imaging</CTitle>
+                  <CDesc>
+                    Using AI and Computer Vision to make full body dermoscopy affordable and accessible to all.
+                  </CDesc>
+                  <div css={tw`flex mt-4`}>
+                    <CTag>Startup</CTag>
+                    <CTag css={tw`text-yellow-600`}>SBIR Funded</CTag>
+                  </div>
+                </Card>
+              </Link>
+              <Link href="https://www.blair3sat.com/">
                 <Card>
                   <CTitle>blair3sat</CTitle>
                   <CDesc>
@@ -120,6 +135,7 @@ const Home = () => {
                   </CDesc>
                   <div css={tw`flex mt-4`}>
                     <CTag>Startup</CTag>
+                    <CTag css={tw`text-yellow-600`}>SBIR Funded</CTag>
                   </div>
                 </Card>
               </Link>
@@ -131,6 +147,7 @@ const Home = () => {
                   </CDesc>
                   <div css={tw`flex mt-4`}>
                     <CTag>Startup</CTag>
+                    <CTag css={tw`text-yellow-600`}>SBIR Funded</CTag>
                   </div>
                 </Card>
               </Link>
