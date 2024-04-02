@@ -44,16 +44,15 @@ const Home = () => {
                   <div
                     css={tw`rounded-full overflow-hidden width[50px] height[50px] md:width[100px] md:height[100px] `}
                   >
-                    <Image src="/images/pfp.jpg" width={100} height={100} alt='Picture of Michael Ilie'/>
+                    <Image src="/images/michael.jpg" width={100} height={100} alt='Picture of Michael Ilie'/>
                   </div>
                 </div>
                 <div css={tw``}>
                   <div css={tw`text-sm md:text-base text-gray-300`}>
                     <p css={tw`mb-2`}>
-                      I am an aspiring <Bold>Entrepreneur</Bold>, specializing in <Bold>Software Development</Bold> and <Bold>Hardware Engineering</Bold>. 
-                      My <Bold>areas of interest</Bold> include FHIR, <Bold>Machine Learning</Bold>, HPC, <Bold>Space Commercialization</Bold>, Simulations, and <Bold>Silicon Design</Bold>/<Bold>Architecture</Bold>.
+                      I am a techie and <Bold>Entrepreneur</Bold>. I make software, tinker with <Bold>hardware</Bold>, and put these two things together to create something <Bold>meaningful</Bold> and useful. I work at <Bold>startups</Bold>, do <Bold>research</Bold>, and play DCS Flight Sim on the side. 
                     </p>
-                    <p>Currently, I'm at <Bold><Link href='https://mbhs.edu/'>Montgomery Blair High School...</Link></Bold>.</p>
+                    <p>Currently, I'm at <Bold><Link href='https://www.careplots.com/'>Careplots...</Link></Bold>.</p>
                   </div>
                 </div>
               </div>
@@ -78,7 +77,7 @@ const Home = () => {
               <Link href="https://github.com/Mcilie">
                 <Chip>Github</Chip>
               </Link>
-              <Link href="https://mci.sh/resume.pdf">
+              <Link href="https://mci.sh/michael_resume.pdf">
                 <Chip>Resume</Chip>
               </Link>
               <Link href="https://www.linkedin.com/in/michael-ilie-8535b9123/">
@@ -89,12 +88,71 @@ const Home = () => {
               </Link>
             </div>
 
-            <div css={tw`text-center mt-20 mb-12 text-3xl md:text-5xl font-black`}>Projects / Endeavors</div>
+            <div css={tw`text-center mt-20 mb-12 text-3xl md:text-5xl font-black`}>Projects / Experience</div>
 
             <div css={tw`grid px-4 md:grid-cols-2 md:px-0 gap-6 pb-20`}>
+            <Link href="https://www.careplots.com/">
+                <Card>
+                  <CTitle>Careplots | Data Analyst</CTitle>
+                  <CDesc>
+                    Upgrading pipelines to modern infrastructure, and developing new data products.
+                  </CDesc>
+                  <div css={tw`flex mt-4`}>
+                  <CTag css={tw`text-green-400`}>Current</CTag>
+                  <CTag>Startup</CTag>
+                  </div>
+                </Card>
+              </Link>
+            <Link href="https://pssg.cs.umd.edu/">
+                <Card>
+                  <CTitle>PSSG | Undergraduate Research</CTitle>
+                  <CDesc>
+                    Teaching LLMs to translate entire HPC codebases across programming models.
+                  </CDesc>
+                  <div css={tw`flex mt-4`}>
+                  <CTag css={tw`text-green-400`}>Current</CTag>
+                  <CTag css={tw`text-purple-500`}>Research</CTag>
+                  </div>
+                </Card>
+              </Link>
+              <Link href="">
+                <Card>
+                  <CTitle>Systematic Survey of Prompt Engineering | First Co-author</CTitle>
+                  <CDesc>
+                    Surveying the field of prompt engineering and map out emergin innovations in how we utilize language models.
+                  </CDesc>
+                  <div css={tw`flex mt-4`}>
+                  <CTag css={tw`text-purple-500`}>Research</CTag>
+                  </div>
+                </Card>
+              </Link>
+              <Link href="https://startupshell.org/">
+                <Card>
+                  <CTitle>Startup Shell | Cohort Fall '23</CTitle>
+                  <CDesc>
+                    Collaborating with UMD's Finest Entrepreneurs
+                  </CDesc>
+                  <div css={tw`flex mt-4`}>
+                  <CTag css={tw`text-green-400`}>Current</CTag>
+                  <CTag>School Club</CTag>
+                  </div>
+                </Card>
+              </Link>
+            <Link href="https://lumoscan.com">
+                <Card>
+                  <CTitle>Lumo Imaging | Senior R&D Engineer</CTitle>
+                  <CDesc>
+                    Using AI and Computer Vision to make full body dermoscopy affordable and accessible to all.
+                  </CDesc>
+                  <div css={tw`flex mt-4`}>
+                    <CTag>Startup</CTag>
+                    <CTag css={tw`text-yellow-600`}>STTR Funded</CTag>
+                  </div>
+                </Card>
+              </Link>
             <Link href="https://cisionvision.com">
                 <Card>
-                  <CTitle>Cision Vision</CTitle>
+                  <CTitle>Cision Vision | Embedded Engineer</CTitle>
                   <CDesc>
                     Conducted R&D on medical imaging systems, conducted market research, hired key contractors, and project managed team.
                   </CDesc>
@@ -104,21 +162,9 @@ const Home = () => {
                   </div>
                 </Card>
               </Link>
-              <Link href="https://lumoscan.com">
-                <Card>
-                  <CTitle>Lumo Imaging</CTitle>
-                  <CDesc>
-                    Using AI and Computer Vision to make full body dermoscopy affordable and accessible to all.
-                  </CDesc>
-                  <div css={tw`flex mt-4`}>
-                    <CTag>Startup</CTag>
-                    <CTag css={tw`text-yellow-600`}>SBIR Funded</CTag>
-                  </div>
-                </Card>
-              </Link>
               <Link href="https://www.blair3sat.com/">
                 <Card>
-                  <CTitle>blair3sat</CTitle>
+                  <CTitle>blair3sat | Optical lead</CTitle>
                   <CDesc>
                     Led optical simulations to develop a small satellite that measures electron density in the ionosphere.
                   </CDesc>
@@ -129,7 +175,7 @@ const Home = () => {
               </Link>
               <Link href="http://www.medapptic.com/">
                 <Card>
-                  <CTitle>MedApptic</CTitle>
+                  <CTitle>MedApptic | Lead Software Engineer</CTitle>
                   <CDesc>
                     Worked to build an electronic drug dispenser system that integrates with existing digital infrastructure.
                   </CDesc>
@@ -141,7 +187,7 @@ const Home = () => {
               </Link>
               <Link href="https://www.psyonic.io/">
                 <Card>
-                  <CTitle>Psyonic</CTitle>
+                  <CTitle>Psyonic | Mechatronics Intern</CTitle>
                   <CDesc>
                   Helped develop advanced prostheses that are affordable for everyone worldwide.
                   </CDesc>
