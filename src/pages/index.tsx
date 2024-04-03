@@ -93,9 +93,9 @@ const Home = () => {
             <div css={tw`grid px-4 md:grid-cols-2 md:px-0 gap-6 pb-20`}>
             <Link href="https://www.careplots.com/">
                 <Card>
-                  <CTitle>Careplots | Data Analyst</CTitle>
+                  <CTitle>Careplots | Senior Data Scientist</CTitle>
                   <CDesc>
-                    Upgrading pipelines to modern infrastructure, and developing new data products.
+                  Upgrading data pipelines to AWS modern infrastructure, and developing new RWE data products
                   </CDesc>
                   <div css={tw`flex mt-4`}>
                   <CTag css={tw`text-green-400`}>Current</CTag>
