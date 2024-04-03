@@ -50,7 +50,7 @@ const Home = () => {
                 <div css={tw``}>
                   <div css={tw`text-sm md:text-base text-gray-300`}>
                     <p css={tw`mb-2`}>
-                      I am a techie and <Bold>Entrepreneur</Bold>. I make software, tinker with <Bold>hardware</Bold>, and put these two things together to create something <Bold>meaningful</Bold> and useful. I work at <Bold>startups</Bold>, do <Bold>research</Bold>, and play DCS Flight Sim on the side. 
+                      I am a technical <Bold>Entrepreneur</Bold>. I make software, tinker with <Bold>hardware</Bold>, and put these two things together to create something <Bold>meaningful</Bold> and useful. I work at <Bold>startups</Bold>, do <Bold>research</Bold>, and play DCS Flight Sim on the side. 
                     </p>
                     <p>Currently, I'm at <Bold><Link href='https://www.careplots.com/'>Careplots...</Link></Bold>.</p>
                   </div>
