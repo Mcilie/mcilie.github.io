@@ -93,9 +93,9 @@ const Home = () => {
             <div css={tw`grid px-4 md:grid-cols-2 md:px-0 gap-6 pb-20`}>
             <Link href="https://www.careplots.com/">
                 <Card>
-                  <CTitle>Careplots | Senior Data Scientist</CTitle>
+                  <CTitle>Careplots | Chief AI Officer</CTitle>
                   <CDesc>
-                  Upgrading data pipelines to AWS modern infrastructure, and developing new RWE data products
+                  Spearheading LLM solution prototypes for Government research
                   </CDesc>
                   <div css={tw`flex mt-4`}>
                   <CTag css={tw`text-green-400`}>Current</CTag>
@@ -115,9 +115,9 @@ const Home = () => {
                   </div>
                 </Card>
               </Link>
-              <Link href="">
+              <Link href="https://trigaten.github.io/Prompt_Survey_Site/">
                 <Card>
-                  <CTitle>Systematic Survey of Prompt Engineering | First Co-author</CTitle>
+                  <CTitle>Systematic Survey of Prompt Engineering | Publication</CTitle>
                   <CDesc>
                     Surveying the field of prompt engineering and map out emergin innovations in how we utilize language models.
                   </CDesc>
