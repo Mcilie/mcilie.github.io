@@ -117,7 +117,7 @@ const Home = () => {
               </Link>
               <Link href="https://trigaten.github.io/Prompt_Survey_Site/">
                 <Card>
-                  <CTitle>Systematic Survey of Prompt Engineering | Publication</CTitle>
+                  <CTitle>Prompt Report | Publication</CTitle>
                   <CDesc>
                     Surveying the field of prompt engineering and map out emergin innovations in how we utilize language models.
                   </CDesc>
