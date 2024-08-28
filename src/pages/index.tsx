@@ -52,7 +52,7 @@ const Home = () => {
                     <p css={tw`mb-2`}>
                       I am a technical <Bold>Entrepreneur</Bold>. I make software, tinker with <Bold>hardware</Bold>, and put these two things together to create something <Bold>meaningful</Bold> and useful. I work at <Bold>startups</Bold>, do <Bold>research</Bold>, and play DCS Flight Sim on the side. 
                     </p>
-                    <p>Currently, I'm at <Bold><Link href='https://www.careplots.com/'>Careplots...</Link></Bold>.</p>
+                    <p>Currently, I'm at <Bold>Veridian...</Bold>.</p>
                   </div>
                 </div>
               </div>
@@ -91,14 +91,37 @@ const Home = () => {
             <div css={tw`text-center mt-20 mb-12 text-3xl md:text-5xl font-black`}>Projects / Experience</div>
 
             <div css={tw`grid px-4 md:grid-cols-2 md:px-0 gap-6 pb-20`}>
+            
+            <Link href="">
+                <Card>
+                  <CTitle>Veridian | CTO</CTitle>
+                  <CDesc>
+                    Building Agentic-AI for data cleaning.
+                  </CDesc>
+                  <div css={tw`flex mt-4`}>
+                  <CTag css={tw`text-green-400`}>Current</CTag>
+                  <CTag>Startup</CTag>
+                  </div>
+                </Card>
+              </Link>
+              <Link href="https://sociable.how/">
+                <Card>
+                  <CTitle>Sociable AI | Lead AI researcher</CTitle>
+                  <CDesc>
+                    AI automation for social media marketing.
+                  </CDesc>
+                  <div css={tw`flex mt-4`}>
+                  <CTag>Startup</CTag>
+                  </div>
+                </Card>
+              </Link>
             <Link href="https://www.careplots.com/">
                 <Card>
                   <CTitle>Careplots | Chief AI Officer</CTitle>
                   <CDesc>
-                  Spearheading LLM solution prototypes for Government research
+                  Spearheading LLM solution prototypes for Government research.
                   </CDesc>
                   <div css={tw`flex mt-4`}>
-                  <CTag css={tw`text-green-400`}>Current</CTag>
                   <CTag>Startup</CTag>
                   </div>
                 </Card>
@@ -107,7 +130,7 @@ const Home = () => {
                 <Card>
                   <CTitle>PSSG | Undergraduate Research</CTitle>
                   <CDesc>
-                    Teaching LLMs to translate entire HPC codebases across programming models.
+                    LLM code tranlsation and RLHF for better code models.
                   </CDesc>
                   <div css={tw`flex mt-4`}>
                   <CTag css={tw`text-green-400`}>Current</CTag>
@@ -130,7 +153,7 @@ const Home = () => {
                 <Card>
                   <CTitle>Startup Shell | Cohort Fall '23</CTitle>
                   <CDesc>
-                    Collaborating with UMD's Finest Entrepreneurs
+                    Collaborating with UMD's Finest Entrepreneurs.
                   </CDesc>
                   <div css={tw`flex mt-4`}>
                   <CTag css={tw`text-green-400`}>Current</CTag>
