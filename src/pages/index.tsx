@@ -77,7 +77,7 @@ const Home = () => {
               <Link href="https://github.com/Mcilie">
                 <Chip>Github</Chip>
               </Link>
-              <Link href="https://mci.sh/michael_resume.pdf">
+              <Link href="https://mci.sh/resume_current.pdf">
                 <Chip>Resume</Chip>
               </Link>
               <Link href="https://www.linkedin.com/in/michael-ilie-8535b9123/">
@@ -109,6 +109,17 @@ const Home = () => {
                   <CTitle>Sociable AI | Lead AI researcher</CTitle>
                   <CDesc>
                     AI automation for social media marketing.
+                  </CDesc>
+                  <div css={tw`flex mt-4`}>
+                  <CTag>Startup</CTag>
+                  </div>
+                </Card>
+              </Link>
+              <Link href="https://learnprompting.org">
+                <Card>
+                  <CTitle>Learn Prompting | Government Contracting Specialist</CTitle>
+                  <CDesc>
+                    Upskilling our federal workforce in the age of AI.
                   </CDesc>
                   <div css={tw`flex mt-4`}>
                   <CTag>Startup</CTag>
